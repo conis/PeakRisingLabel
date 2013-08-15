@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Conis" => "conis.yi@gmail.com" }
   s.source       = { :git => "https://github.com/conis/PeakRisingLabel.git", :tag => "v1.0.0"}
   s.platform     = :ios, '5.0'
-  s.source_files = 'Peak', '*.{h,m}'
+  s.source_files = '*.{h,m}'
   s.framework  = 'UIKit'
   s.requires_arc = true
 end

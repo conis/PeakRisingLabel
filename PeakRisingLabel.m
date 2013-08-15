@@ -127,8 +127,6 @@
     return;
   }
   
-
-  NSLog(@"%.2f", self.currentValue);
   [self updateMonitor];
 }
 
