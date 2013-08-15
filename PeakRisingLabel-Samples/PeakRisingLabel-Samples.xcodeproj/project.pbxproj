@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D24D51BA17BCB0E6004C9D9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24D51B917BCB0E6004C9D9F /* UIKit.framework */; };
+		D24D51BC17BCB0E6004C9D9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24D51BB17BCB0E6004C9D9F /* Foundation.framework */; };
+		D24D51BE17BCB0E6004C9D9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24D51BD17BCB0E6004C9D9F /* CoreGraphics.framework */; };
+		D24D51C417BCB0E6004C9D9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D24D51C217BCB0E6004C9D9F /* InfoPlist.strings */; };
+		D24D51C617BCB0E6004C9D9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D51C517BCB0E6004C9D9F /* main.m */; };
+		D24D51CA17BCB0E6004C9D9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D51C917BCB0E6004C9D9F /* AppDelegate.m */; };
+		D24D51CC17BCB0E6004C9D9F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D24D51CB17BCB0E6004C9D9F /* Default.png */; };
+		D24D51CE17BCB0E6004C9D9F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D24D51CD17BCB0E6004C9D9F /* Default@2x.png */; };
+		D24D51D017BCB0E6004C9D9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D24D51CF17BCB0E6004C9D9F /* Default-568h@2x.png */; };
+		D24D51D317BCB0E6004C9D9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D51D217BCB0E6004C9D9F /* ViewController.m */; };
+		D24D51D617BCB0E6004C9D9F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D24D51D417BCB0E6004C9D9F /* ViewController.xib */; };
+		D24D51DE17BCB0F2004C9D9F /* PeakRisingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D51DD17BCB0F2004C9D9F /* PeakRisingLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D24D51B617BCB0E6004C9D9F /* PeakRisingLabel-Samples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PeakRisingLabel-Samples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24D51B917BCB0E6004C9D9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D24D51BB17BCB0E6004C9D9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D24D51BD17BCB0E6004C9D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D24D51C117BCB0E6004C9D9F /* PeakRisingLabel-Samples-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeakRisingLabel-Samples-Info.plist"; sourceTree = "<group>"; };
+		D24D51C317BCB0E6004C9D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D24D51C517BCB0E6004C9D9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D24D51C717BCB0E6004C9D9F /* PeakRisingLabel-Samples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeakRisingLabel-Samples-Prefix.pch"; sourceTree = "<group>"; };
+		D24D51C817BCB0E6004C9D9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D24D51C917BCB0E6004C9D9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D24D51CB17BCB0E6004C9D9F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D24D51CD17BCB0E6004C9D9F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D24D51CF17BCB0E6004C9D9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D24D51D117BCB0E6004C9D9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D24D51D217BCB0E6004C9D9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D24D51D517BCB0E6004C9D9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D24D51DC17BCB0F2004C9D9F /* PeakRisingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeakRisingLabel.h; path = ../../PeakRisingLabel.h; sourceTree = "<group>"; };
+		D24D51DD17BCB0F2004C9D9F /* PeakRisingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeakRisingLabel.m; path = ../../PeakRisingLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D24D51B317BCB0E6004C9D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24D51BA17BCB0E6004C9D9F /* UIKit.framework in Frameworks */,
+				D24D51BC17BCB0E6004C9D9F /* Foundation.framework in Frameworks */,
+				D24D51BE17BCB0E6004C9D9F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D24D51AD17BCB0E6004C9D9F = {
+			isa = PBXGroup;
+			children = (
+				D24D51BF17BCB0E6004C9D9F /* PeakRisingLabel-Samples */,
+				D24D51B817BCB0E6004C9D9F /* Frameworks */,
+				D24D51B717BCB0E6004C9D9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D24D51B717BCB0E6004C9D9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D24D51B617BCB0E6004C9D9F /* PeakRisingLabel-Samples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D24D51B817BCB0E6004C9D9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D24D51B917BCB0E6004C9D9F /* UIKit.framework */,
+				D24D51BB17BCB0E6004C9D9F /* Foundation.framework */,
+				D24D51BD17BCB0E6004C9D9F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D24D51BF17BCB0E6004C9D9F /* PeakRisingLabel-Samples */ = {
+			isa = PBXGroup;
+			children = (
+				D24D51DC17BCB0F2004C9D9F /* PeakRisingLabel.h */,
+				D24D51DD17BCB0F2004C9D9F /* PeakRisingLabel.m */,
+				D24D51C817BCB0E6004C9D9F /* AppDelegate.h */,
+				D24D51C917BCB0E6004C9D9F /* AppDelegate.m */,
+				D24D51D117BCB0E6004C9D9F /* ViewController.h */,
+				D24D51D217BCB0E6004C9D9F /* ViewController.m */,
+				D24D51D417BCB0E6004C9D9F /* ViewController.xib */,
+				D24D51C017BCB0E6004C9D9F /* Supporting Files */,
+			);
+			path = "PeakRisingLabel-Samples";
+			sourceTree = "<group>";
+		};
+		D24D51C017BCB0E6004C9D9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D24D51C117BCB0E6004C9D9F /* PeakRisingLabel-Samples-Info.plist */,
+				D24D51C217BCB0E6004C9D9F /* InfoPlist.strings */,
+				D24D51C517BCB0E6004C9D9F /* main.m */,
+				D24D51C717BCB0E6004C9D9F /* PeakRisingLabel-Samples-Prefix.pch */,
+				D24D51CB17BCB0E6004C9D9F /* Default.png */,
+				D24D51CD17BCB0E6004C9D9F /* Default@2x.png */,
+				D24D51CF17BCB0E6004C9D9F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D24D51B517BCB0E6004C9D9F /* PeakRisingLabel-Samples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24D51D917BCB0E6004C9D9F /* Build configuration list for PBXNativeTarget "PeakRisingLabel-Samples" */;
+			buildPhases = (
+				D24D51B217BCB0E6004C9D9F /* Sources */,
+				D24D51B317BCB0E6004C9D9F /* Frameworks */,
+				D24D51B417BCB0E6004C9D9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PeakRisingLabel-Samples";
+			productName = "PeakRisingLabel-Samples";
+			productReference = D24D51B617BCB0E6004C9D9F /* PeakRisingLabel-Samples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D24D51AE17BCB0E6004C9D9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = conis;
+			};
+			buildConfigurationList = D24D51B117BCB0E6004C9D9F /* Build configuration list for PBXProject "PeakRisingLabel-Samples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D24D51AD17BCB0E6004C9D9F;
+			productRefGroup = D24D51B717BCB0E6004C9D9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D24D51B517BCB0E6004C9D9F /* PeakRisingLabel-Samples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D24D51B417BCB0E6004C9D9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24D51C417BCB0E6004C9D9F /* InfoPlist.strings in Resources */,
+				D24D51CC17BCB0E6004C9D9F /* Default.png in Resources */,
+				D24D51CE17BCB0E6004C9D9F /* Default@2x.png in Resources */,
+				D24D51D017BCB0E6004C9D9F /* Default-568h@2x.png in Resources */,
+				D24D51D617BCB0E6004C9D9F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D24D51B217BCB0E6004C9D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24D51C617BCB0E6004C9D9F /* main.m in Sources */,
+				D24D51CA17BCB0E6004C9D9F /* AppDelegate.m in Sources */,
+				D24D51D317BCB0E6004C9D9F /* ViewController.m in Sources */,
+				D24D51DE17BCB0F2004C9D9F /* PeakRisingLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D24D51C217BCB0E6004C9D9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24D51C317BCB0E6004C9D9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D24D51D417BCB0E6004C9D9F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D24D51D517BCB0E6004C9D9F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D24D51D717BCB0E6004C9D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D24D51D817BCB0E6004C9D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D24D51DA17BCB0E6004C9D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeakRisingLabel-Samples/PeakRisingLabel-Samples-Prefix.pch";
+				INFOPLIST_FILE = "PeakRisingLabel-Samples/PeakRisingLabel-Samples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D24D51DB17BCB0E6004C9D9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeakRisingLabel-Samples/PeakRisingLabel-Samples-Prefix.pch";
+				INFOPLIST_FILE = "PeakRisingLabel-Samples/PeakRisingLabel-Samples-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D24D51B117BCB0E6004C9D9F /* Build configuration list for PBXProject "PeakRisingLabel-Samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24D51D717BCB0E6004C9D9F /* Debug */,
+				D24D51D817BCB0E6004C9D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24D51D917BCB0E6004C9D9F /* Build configuration list for PBXNativeTarget "PeakRisingLabel-Samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24D51DA17BCB0E6004C9D9F /* Debug */,
+				D24D51DB17BCB0E6004C9D9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D24D51AE17BCB0E6004C9D9F /* Project object */;
+}

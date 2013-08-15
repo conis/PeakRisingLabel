@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'Samples' target in the 'Samples' project
+// Prefix header for all source files of the 'PeakRisingLabel-Samples' target in the 'PeakRisingLabel-Samples' project
 //
 
 #import <Availability.h>

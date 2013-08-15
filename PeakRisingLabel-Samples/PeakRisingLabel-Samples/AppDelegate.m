@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Samples
+//  PeakRisingLabel-Samples
 //
 //  Created by conis on 8/15/13.
 //  Copyright (c) 2013 conis. All rights reserved.
