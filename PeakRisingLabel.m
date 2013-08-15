@@ -13,10 +13,6 @@
 @property (nonatomic) CGFloat stepValue;
 //计时器
 @property (nonatomic, strong) NSTimer *mainTimer;
-//开始的数值
-@property (nonatomic) CGFloat fromValue;
-//结束的数值
-@property (nonatomic) CGFloat toValue;
 @end
 
 

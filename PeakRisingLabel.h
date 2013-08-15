@@ -18,6 +18,10 @@
 @property (nonatomic, strong) NSString *formatter;
 //是否自动调整大小
 @property (nonatomic) BOOL autoSize;
+//开始的数值
+@property (nonatomic) CGFloat fromValue;
+//结束的数值
+@property (nonatomic) CGFloat toValue;
 
 -(void) updateTo: (CGFloat) toValue;
 -(void) updateTo: (CGFloat) toValue animation: (BOOL) animation;
